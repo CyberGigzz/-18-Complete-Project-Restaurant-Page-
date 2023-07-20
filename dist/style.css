@@ -103,6 +103,7 @@ body {
   align-items: center;
   font-size: 2.2rem;
   gap: 1.5rem;
+  animation: fadeIn 1.5s;
 }
 
 .home p {
@@ -120,6 +121,7 @@ body {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  animation: fadeIn 1.5s;
 }
 
 .menu-item {
@@ -142,6 +144,7 @@ body {
   max-width: 75rem;
   gap: 2rem;
   font-size: 2.4rem;
+  animation: fadeIn 1.5s;
 }
 
 .contact img {
@@ -151,4 +154,14 @@ body {
 
 .contact p {
   padding: 0.2rem;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
