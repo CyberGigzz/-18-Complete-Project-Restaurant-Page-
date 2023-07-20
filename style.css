@@ -35,9 +35,7 @@ body {
   color: #fff;
   font-size: 1.6rem;
   min-height: 100vh;
-  background-image: url(/dist/img/background.jpg);
-  background-size: cover;
-  background-position: center;
+  
 
   /* only works if there is nothing absolutely positioned in relation to body */
   /* overflow-x: hidden; */
@@ -51,6 +49,9 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  background-image: url(/dist/img/background.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* Header */
@@ -138,6 +139,7 @@ body {
 .contact {
     display: flex;
     flex-direction: column;
+    max-width: 75rem;
     gap: 2rem;
     font-size: 2.4rem;
 }
