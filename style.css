@@ -36,6 +36,11 @@ body {
   font-size: 1.6rem;
   min-height: 100vh;
 
+  background-image: url(/dist/img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
   /* only works if there is nothing absolutely positioned in relation to body */
   /* overflow-x: hidden; */
 }
@@ -48,10 +53,6 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-image: url(/dist/img/background.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 /* Header */
